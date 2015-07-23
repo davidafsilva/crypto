@@ -1,4 +1,4 @@
-#!/bin/env python
+#!/usr/bin/env python3
 
 # basic shift cipher implementation
 # @davidafsilva
@@ -21,5 +21,5 @@ def dec(c, k):
     return m
 
 # test the cipher
-print enc("cryptoisfun",25)
-print dec(enc("cryptoisfun",25), 25)
+print (enc("cryptoisfun",25))
+print (dec(enc("cryptoisfun",25), 25))
